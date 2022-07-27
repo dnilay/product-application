@@ -10,5 +10,7 @@ public class App
     {
         System.out.println( "Welcome To product Application" );
         System.out.println("jenkin is cool");
+        Product product=new Product();
+        System.out.println(product.getProductId());
     }
 }
